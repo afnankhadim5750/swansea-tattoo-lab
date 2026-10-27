@@ -38,7 +38,7 @@ a{color:var(--ink)}a:focus-visible,button:focus-visible,input:focus-visible,sele
 .carousel{overflow:hidden}
 .carousel-track{display:flex;gap:0;transition:transform .45s ease}
 .carousel-slide{flex:0 0 100%;padding-right:0}
-.carousel-slide img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.carousel-slide img{width:100%;aspect-ratio:16/10;max-height:620px;object-fit:cover}
 .carousel-slide figcaption{font-size:14px;color:var(--slate);padding:10px 0 6px;border-bottom:3px solid var(--ink);margin-bottom:20px}
 .carousel-controls{display:flex;align-items:center;gap:18px;padding:10px 24px 30px}
 .car-btn{background:#fff;border:2px solid var(--ink);padding:10px 18px;font-weight:700;cursor:pointer}
